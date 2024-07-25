@@ -17,9 +17,7 @@ This script migrates data from an Oracle database to a SQL Server database using
 
 1. Install the required Python libraries:
 
-'''bash
 pip install cx_Oracle jaydebeapi jpype1 progressbar2
-'''
 
 2. Ensure you have the Oracle client installed and properly configured on your system.
 
@@ -29,7 +27,6 @@ pip install cx_Oracle jaydebeapi jpype1 progressbar2
 
 Update the `config_db` dictionary with your Oracle database connection details:
 
-```python
 config_db = {
     'user': 'your_username',
     'password': 'your_password',
@@ -38,29 +35,24 @@ config_db = {
     'port': 'your_port',
     'service_name': 'your_service_name'
 }
-```
 
 Update the JDBC driver details and connection URL for your SQL Server database:
 
-```python
 driver_class = 'com.database.jdbc.Driver'
 driver_path = '/path/to/your/jdbc_driver.jar'
 url = 'jdbc:database://your_host;databaseName=your_database;trustServerCertificate=true'
 user = 'your_username'
 password = 'your_password'
-```
 
 ## Table and Column Mapping
 
 Define the mapping of Oracle tables to SQL Server tables in the `table_mapping` dictionary:
 
-```python
 table_mapping = {
     'ORACLE_SCHEMA.TABLE1': 'SQL_SERVER_SCHEMA.TABLE1',
     'ORACLE_SCHEMA.TABLE2': 'SQL_SERVER_SCHEMA.TABLE2',
     'ORACLE_SCHEMA.TABLE3': 'SQL_SERVER_SCHEMA.TABLE3'
 }
-```
 
 Define the mapping of columns for each table in the `column_mapping` dictionary:
 
