@@ -16,7 +16,8 @@ This script migrates data from an Oracle database to a SQL Server database using
 ## Installation
 
 1. Install the required Python libraries:
-    ```
+
+    ```bash
     pip install cx_Oracle jaydebeapi jpype1 progressbar2
     ```
 
@@ -88,6 +89,7 @@ column_mapping = {
 1. Ensure that the Oracle and SQL Server databases are accessible.
 
 2. Run the script:
+   
     ```bash
     python migrate.py
     ```
