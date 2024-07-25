@@ -79,10 +79,8 @@ column_mapping = {
 1. Ensure that the Oracle and SQL Server databases are accessible.
 
 2. Run the script:
-   
-    ```bash
+
     python migrate.py
-    ```
 
 ## Notes
 
