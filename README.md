@@ -56,7 +56,6 @@ table_mapping = {
 
 Define the mapping of columns for each table in the `column_mapping` dictionary:
 
-```python
 column_mapping = {
     'ORACLE_SCHEMA.TABLE1': {
         'COLUMN1': 'COLUMN1',
@@ -74,7 +73,6 @@ column_mapping = {
         'COLUMN3': 'COLUMN3'
     }
 }
-```
 
 ## Usage
 
