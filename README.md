@@ -98,5 +98,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [jaydebeapi](https://pypi.org/project/JayDeBeApi/) library for connecting to SQL Server using JDBC.
 - [progressbar2](https://pypi.org/project/progressbar2/) library for displaying progress bars.
 ```
-
-Save this content as `README.md` in the same directory as your script. This file provides an overview of the script, installation instructions, configuration steps, and usage guidelines.
